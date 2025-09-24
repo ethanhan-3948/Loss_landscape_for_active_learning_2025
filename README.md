@@ -63,8 +63,32 @@ conda env create -f environment.yml
 ## References and Acknowledgement
 
 - Using a custom version of [`loss_landscapes`](https://github.com/marcellodebernardi/loss-landscapes/tree/master) by Marcello de Bernardi.
-- Using functions written by Dr. Ashley Dale for Hessian eigenvector computation.
+- Using functions written by Dr. Ashley Dale for Hessian eigenvector computation for ALIGNN models.
 - [Prediction of the Electron Density of States for Crystalline Compounds with Atomistic Line Graph Neural Networks (ALIGNN)](https://link.springer.com/article/10.1007/s11837-022-05199-y)
+- [Loss Visualization by Lucas Böttcher](https://gitlab.com/ComputationalScience/loss-visualization)
+
+If you find this repository useful, please consider including the following citations in your work
+
+```
+@article{bottcher2024visualizing,
+  title={Visualizing high-dimensional loss landscapes with {H}essian directions},
+  author={B{\"o}ttcher, Lucas and Wheeler, Gregory},
+  journal={Journal of Statistical Mechanics: Theory and Experiment},
+  volume={2024},
+  number={2},
+  pages={023401},
+  year={2024}
+}
+```
+
+```
+@misc{
+    title={loss-landscapes},
+    author={Marcello De Bernardi},
+    year={2019},
+    url={https://github.com/marcellodebernardi/loss-landscapes}
+}
+```
 
 ## License
 
