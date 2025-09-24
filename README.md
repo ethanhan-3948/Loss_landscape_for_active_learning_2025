@@ -7,17 +7,16 @@ This project provides a framework for analyzing neural network loss landscapes t
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/Loss_landscape_for_active_learning_2025.git
+git clone https://github.com/ethanhan-3948/Loss_landscape_for_active_learning_2025.git
 cd Loss_landscape_for_active_learning_2025
 ```
 
 ## Environment Setup
 
-Create and activate the conda environment:
+Create the conda environment:
 
 ```bash
 conda env create -f environment.yml
-conda activate losslandscape-ACSURP
 ```
 
 ## How to use
@@ -33,11 +32,12 @@ conda activate losslandscape-ACSURP
 ### 📊 Analysis Notebooks
 
 #### 1. Evolution of Active Learning Models
-**Start here to understand model progression across active learning iterations:**
+**Understand model progression across active learning iterations:**
 - **`NBE5_Analyzing_evolution_of_alignn_model.ipynb`** - **⭐ START HERE** - Comprehensive analysis of how ALIGNN models evolve across active learning iterations
 - **`NBE2_Analyzing_iter_1_alignn_model.ipynb`** - Detailed analysis of iteration 1 model
 - **`NBE3_Analyzing_iter_2_alignn_model.ipynb`** - Detailed analysis of iteration 2 model  
 - **`NBE4_Analyzing_iter_3_alignn_model.ipynb`** - Detailed analysis of iteration 3 model
+- Data and model analyzed here are from the paper `Leveraging Domain Adaptation for Accurate Machine Learning Predictions of New Halide Perovskites` by **Dipannoy Das Gupta, Zachary J. L. Bare, Suxuen Yew, Santosh Adhikari, Brian DeCost, Qi Zhang, Charles Musgrave, Christopher Sutton**.
 
 #### 2. Analysis of JARVIS Pre-trained Models
 **Loss landscape analysis of production-ready materials science models:**
@@ -60,10 +60,11 @@ conda activate losslandscape-ACSURP
 - **New Users**: Start with the demo notebooks (`demo1` → `demo2` → `demo3` → `demo4`)
 
 
-## Citation
+## References and Acknowledgement
 
 - Using a custom version of [`loss_landscapes`](https://github.com/marcellodebernardi/loss-landscapes/tree/master) by Marcello de Bernardi.
 - Using functions written by Dr. Ashley Dale for Hessian eigenvector computation.
+- [Prediction of the Electron Density of States for Crystalline Compounds with Atomistic Line Graph Neural Networks (ALIGNN)](https://link.springer.com/article/10.1007/s11837-022-05199-y)
 
 ## License
 
