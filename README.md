@@ -33,8 +33,8 @@ conda env create -f environment.yml
 
 #### 1. Evolution of Active Learning Models
 **Understand model progression across active learning iterations:**
-- **`NBE5_Analyzing_evolution_of_alignn_model.ipynb`** - **⭐ START HERE** - Comprehensive analysis of how ALIGNN models evolve across active learning iterations
-- **`NBE5_Analyzing_evolution_of_alignn_model_perturbation_03.ipynb`** - **⭐** - Updated version with zoomed in loss landscape visualizations and quantification of iso-loss contours.
+- **`NBE5_Analyzing_evolution_of_alignn_model.ipynb`** - **⭐** - Comprehensive analysis of how ALIGNN models evolve across active learning iterations
+- **`NBE5_Analyzing_evolution_of_alignn_model_perturbation_03.ipynb`** - **⭐START HERE** - Updated version with zoomed in loss landscape visualizations and quantification of iso-loss contours.
 - **`NBE2_Analyzing_iter_1_alignn_model.ipynb`** - Detailed analysis of iteration 1 model
 - **`NBE3_Analyzing_iter_2_alignn_model.ipynb`** - Detailed analysis of iteration 2 model  
 - **`NBE4_Analyzing_iter_3_alignn_model.ipynb`** - Detailed analysis of iteration 3 model
